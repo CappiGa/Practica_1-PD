@@ -8,19 +8,17 @@ En esta práctica, se implementa el control de un LED sin utilizar la función `
 - Evaluar el impacto del uso de registros GPIO frente a las funciones de Arduino en la velocidad de conmutación del LED.
 - Medir la frecuencia de encendido/apagado en distintos escenarios mediante un osciloscopio.
 - Comparar el impacto del envío de datos por el puerto serie en la velocidad de conmutación.
-- Subir el código al repositorio de GitHub personal.
 
 ## 3. Materiales
-- **ESP32-S3** (placa de desarrollo).
-- **LED** (puede ser el integrado en la placa o uno externo).
+- **ESP32-S3**.
+- **LED**.
 - **Protoboard** y cables.
 - **Osciloscopio** para medir la frecuencia de conmutación.
 
 ## 4. Desarrollo
 
 ### 4.1 Preparación del Entorno
-1. Instalar **PlatformIO** en VS Code (si no está instalado).
-2. Configurar el archivo `platformio.ini` con el siguiente contenido:
+1. Configurar el archivo `platformio.ini` con el siguiente contenido:
    ```ini
    [env:esp32-s3-devkitm-1]
    platform = espressif32
@@ -28,8 +26,8 @@ En esta práctica, se implementa el control de un LED sin utilizar la función `
    framework = arduino
    monitor_speed = 115200
    ```
-3. Conectar el ESP32-S3 al ordenador mediante USB.
-4. Configurar el puerto adecuado en PlatformIO.
+2. Conectar el ESP32-S3 al ordenador mediante USB.
+3. Configurar el puerto adecuado en PlatformIO.
 
 ### 4.2 Programación del Microcontrolador
 El código implementado en `main.cpp` se basa en el uso de `millis()` para evitar bloqueos:
@@ -76,20 +74,10 @@ Se realizarán mediciones en cuatro casos:
 3. **Sin envío por el puerto serie y funciones de Arduino** (`digitalWrite()`).
 4. **Sin envío por el puerto serie y acceso directo a registros GPIO**.
 
-Pasos:
-1. Conectar el osciloscopio al pin del LED.
-2. Cargar cada versión del código y medir la frecuencia de parpadeo.
-3. Comparar los resultados y analizar el impacto del puerto serie y del método de acceso al GPIO.
-
 ### 4.4 Subida del Código al ESP32-S3
 1. Conectar la placa ESP32-S3 y asegurarse de que está en modo de programación.
 2. Compilar y cargar el código usando PlatformIO (`Upload`).
 3. Abrir el monitor serie (`Monitor`) si es necesario.
-
-### 4.5 Publicación en GitHub
-1. Inicializar un repositorio en GitHub si no existe.
-2. Subir los archivos `main.cpp` y `platformio.ini`.
-3. Confirmar que el código está disponible en el repositorio personal.
 
 ## 5. Resultados
 - Se observó en el osciloscopio que la frecuencia de parpadeo varía según el método utilizado.
@@ -97,12 +85,6 @@ Pasos:
 - El envío de datos por el puerto serie reduce significativamente la frecuencia máxima alcanzable.
 - Se lograron frecuencias de conmutación superiores sin el uso del puerto serie.
 
-## 6. Conclusiones
-- El uso de `millis()` en lugar de `delay()` permite ejecutar otras tareas sin bloquear el microcontrolador.
-- La manipulación directa de registros GPIO es mucho más eficiente en términos de velocidad de conmutación.
-- La comunicación serie introduce una latencia significativa en la velocidad de parpadeo.
-- Se comprendió el impacto del software en la velocidad de respuesta del hardware.
-
-## 7. Referencias
+## 6. Referencias
 - Documentación oficial de PlatformIO: [https://docs.platformio.org](https://docs.platformio.org)
 - Documentación sobre registros GPIO del ESP32: [https://docs.espressif.com/projects/esp-idf/en/latest/esp32s3/api-reference/peripherals/gpio.html](https://docs.espressif.com/projects/esp-idf/en/latest/esp32s3/api-reference/peripherals/gpio.html)
