@@ -8,10 +8,10 @@ En esta práctica, se implementa un programa básico en ESP32-S3 para hacer parp
 - Generar un parpadeo periódico de un LED con un tiempo de encendido y apagado de 500 ms.
 
 ## 3. Materiales
-- ESP32-S3
-- Led
-- Protoboard
-- Cable tipo c
+- **ESP32-S3**
+- **Led**
+- **Protoboard**
+- **Cable tipo c**
 
 ## 4. Desarrollo
 
