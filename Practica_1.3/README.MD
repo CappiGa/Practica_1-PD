@@ -8,12 +8,11 @@ En esta práctica, se implementa el control de un LED utilizando el acceso direc
 - Manipular directamente los registros de salida del ESP32-S3 para encender y apagar un LED.
 - Utilizar operaciones a nivel de bits para modificar el estado del pin de salida.
 - Enviar mensajes de estado ("ON" y "OFF") al puerto serie.
-- Subir el código al repositorio de GitHub personal.
 
 ## 3. Materiales
-- **ESP32-S3** (placa de desarrollo).
-- **LED** (puede ser el integrado en la placa o uno externo).
-- **Protoboard** y cables (en caso de usar un LED externo).
+- **ESP32-S3**.
+- **LED**.
+- **Protoboard**.
 
 ## 4. Desarrollo
 
@@ -83,12 +82,6 @@ void loop() {
 - Se observa en el monitor serie que se imprimen los mensajes "ON" y "OFF" en cada ciclo.
 - La ejecución del programa es estable y se verifica correctamente mediante la salida serie.
 
-## 6. Conclusiones
-- Se aprendió a manipular los registros GPIO directamente para controlar un LED.
-- Se comprendió la importancia de las operaciones a nivel de bits en el manejo de hardware embebido.
-- Se verificó el correcto funcionamiento del código mediante el monitor serie.
-- Se continuó con la práctica del flujo de trabajo en PlatformIO y GitHub.
-
-## 7. Referencias
+## 6. Referencias
 - Documentación oficial de PlatformIO: [https://docs.platformio.org](https://docs.platformio.org)
 - Documentación sobre registros GPIO del ESP32: [https://docs.espressif.com/projects/esp-idf/en/latest/esp32s3/api-reference/peripherals/gpio.html](https://docs.espressif.com/projects/esp-idf/en/latest/esp32s3/api-reference/peripherals/gpio.html)
