@@ -66,9 +66,3 @@ void loop() {
 - Al cargar el código en el ESP32-S3, el LED comienza a **parpadear con un periodo de 2 segundos** (1 segundo encendido, 1 segundo apagado).
 - Se observa en el monitor serie que se imprimen los mensajes "ON" y "OFF" en cada ciclo.
 - La ejecución del programa es estable y se verifica correctamente mediante la salida serie.
-
-## 6. Referencias
-- Documentación oficial de PlatformIO: [https://docs.platformio.org](https://docs.platformio.org)
-- Documentación de la comunicación serie en Arduino: [https://www.arduino.cc/reference/en/language/functions/communication/serial/](https://www.arduino.cc/reference/en/language/functions/communication/serial/)
-
-
