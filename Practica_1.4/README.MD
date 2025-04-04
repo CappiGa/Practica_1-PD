@@ -84,7 +84,3 @@ Se realizarán mediciones en cuatro casos:
 - El uso de registros GPIO permite una conmutación más rápida que `digitalWrite()`.
 - El envío de datos por el puerto serie reduce significativamente la frecuencia máxima alcanzable.
 - Se lograron frecuencias de conmutación superiores sin el uso del puerto serie.
-
-## 6. Referencias
-- Documentación oficial de PlatformIO: [https://docs.platformio.org](https://docs.platformio.org)
-- Documentación sobre registros GPIO del ESP32: [https://docs.espressif.com/projects/esp-idf/en/latest/esp32s3/api-reference/peripherals/gpio.html](https://docs.espressif.com/projects/esp-idf/en/latest/esp32s3/api-reference/peripherals/gpio.html)
