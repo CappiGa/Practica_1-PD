@@ -57,7 +57,3 @@ void loop() {
 - Al cargar el código en el ESP32-S3, el LED comienza a **parpadear con un periodo de 1 segundo** (500 ms encendido, 500 ms apagado).
 - La ejecución del programa es estable y se verifica correctamente mediante la salida serie.
 
-## 6. Referencias
-- Código de referencia: [GitHub - Blink](https://github.com/schacon/blink)
-- Documentación oficial de PlatformIO: [https://docs.platformio.org](https://docs.platformio.org)
-
