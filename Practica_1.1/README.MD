@@ -10,7 +10,6 @@ En esta práctica, se implementa un programa básico en ESP32-S3 para hacer parp
 ## 3. Materiales
 - **ESP32-S3**
 - **Led**
-- **Protoboard**
 - **Cable tipo c**
 
 ## 4. Desarrollo
