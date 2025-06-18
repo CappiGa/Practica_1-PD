@@ -70,9 +70,13 @@ void loop() {
 ### 4.3 Medición de la Frecuencia con el Osciloscopio
 Se realizarán mediciones en cuatro casos:
 1. **Con envío por el puerto serie y funciones de Arduino** (`digitalWrite()`).
+![Image](https://github.com/user-attachments/assets/126b2fe8-ab26-4f98-a52c-e62b3b2715bc)
 2. **Con envío por el puerto serie y acceso directo a registros GPIO**.
+![Image](https://github.com/user-attachments/assets/9a9ba72d-3029-4497-b1a8-5f883e6abfec)
 3. **Sin envío por el puerto serie y funciones de Arduino** (`digitalWrite()`).
+![Image](https://github.com/user-attachments/assets/ecaa668a-18fe-44cd-921e-9a8ba4dd5bc0)
 4. **Sin envío por el puerto serie y acceso directo a registros GPIO**.
+![Image](https://github.com/user-attachments/assets/cfcc869a-c56a-4738-be67-a835ddb1fcf0)
 
 ### 4.4 Subida del Código al ESP32-S3
 1. Conectar la placa ESP32-S3 y asegurarse de que está en modo de programación.
