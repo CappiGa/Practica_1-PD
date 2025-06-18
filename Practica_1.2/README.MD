@@ -1,17 +1,18 @@
 # Práctica 1.2 - Parpadeo con mensajes en el puerto serie
 
 ## 1. Descripción
-En esta práctica, se extiende el programa de parpadeo del LED de la práctica anterior para incluir la comunicación a través del puerto serie. Se enviará un mensaje indicando el estado del LED ("ON" cuando está encendido y "OFF" cuando está apagado) cada vez que cambie su estado.
+En esta práctica, se extiende el programa de parpadeo del LED de la práctica anterior para incluir la comunicación a través del puerto serie. Se enviará un mensaje indicando el estado del LED ("ON" cuando está encendido y "OFF" cuando está apagado) cada vez que cambie su estado. 
 
 ## 2. Objetivos
 - Configurar un pin del ESP32-S3 como salida.
 - Inicializar y utilizar el puerto serie para depuración.
 - Enviar mensajes de estado ("ON" y "OFF") cada vez que el LED cambie de estado.
+- Medir la frecuencia de encendido/apagado mediante un osciloscopio.
 
 ## 3. Materiales
 - **ESP32-S3**.
 - **LED**.
-- **Protoboard**.
+- **Osciloscopio** para medir la frecuencia de conmutación.
 - **Cable tipo c**.
 
 ## 4. Desarrollo
