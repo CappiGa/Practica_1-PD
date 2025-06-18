@@ -70,4 +70,4 @@ void loop() {
 
 - La ejecución del programa es estable y se verifica correctamente mediante la salida serie.
 - Se determinó la máxima frecuencia de parpadeo medible con osciloscopio.
-![Image](https://github.com/user-attachments/assets/9a9ba72d-3029-4497-b1a8-5f883e6abfec)
+![Image](https://github.com/user-attachments/assets/126b2fe8-ab26-4f98-a52c-e62b3b2715bc)
