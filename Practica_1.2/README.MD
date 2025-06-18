@@ -26,7 +26,6 @@ En esta práctica, se extiende el programa de parpadeo del LED de la práctica a
    monitor_speed = 115200
    ```
 2. Conectar el ESP32-S3 al ordenador mediante USB.
-3. Configurar el puerto adecuado en PlatformIO.
 
 ### 4.2 Programación del Microcontrolador
 El código implementado en `main.cpp` se basa en la estructura estándar de Arduino:
@@ -65,4 +64,9 @@ void loop() {
 ## 5. Resultados
 - Al cargar el código en el ESP32-S3, el LED comienza a **parpadear con un periodo de 2 segundos** (1 segundo encendido, 1 segundo apagado).
 - Se observa en el monitor serie que se imprimen los mensajes "ON" y "OFF" en cada ciclo.
+
+![Image](https://github.com/user-attachments/assets/5fc3b3ff-44dd-4ac4-866e-1aafdf58beb1)
+
 - La ejecución del programa es estable y se verifica correctamente mediante la salida serie.
+- Se determinó la máxima frecuencia de parpadeo medible con osciloscopio.
+![Image](https://github.com/user-attachments/assets/9a9ba72d-3029-4497-b1a8-5f883e6abfec)
