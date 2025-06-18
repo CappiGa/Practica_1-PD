@@ -72,12 +72,8 @@ void loop() {
 2. Compilar y cargar el código usando PlatformIO (`Upload`).
 3. Abrir el monitor serie (`Monitor`) para verificar los mensajes "ON" y "OFF".
 
-### 4.4 Publicación en GitHub
-1. Inicializar un repositorio en GitHub si no existe.
-2. Subir los archivos `main.cpp` y `platformio.ini`.
-3. Confirmar que el código está disponible en el repositorio personal.
-
 ## 5. Resultados
 - Al cargar el código en el ESP32-S3, el LED comienza a **parpadear con un periodo de 2 segundos** (1 segundo encendido, 1 segundo apagado).
 - Se observa en el monitor serie que se imprimen los mensajes "ON" y "OFF" en cada ciclo.
 - La ejecución del programa es estable y se verifica correctamente mediante la salida serie.
+- 
