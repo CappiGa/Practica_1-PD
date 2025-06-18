@@ -58,6 +58,3 @@ void loop() {
 - Al cargar el código en el ESP32-S3, el LED comienza a **parpadear con un periodo de 1 segundo** (500 ms encendido, 500 ms apagado).
 - La ejecución del programa es estable y se verifica correctamente mediante la salida serie.
 
-![Image](https://github.com/user-attachments/assets/5fc3b3ff-44dd-4ac4-866e-1aafdf58beb1)
-
-
