@@ -12,6 +12,8 @@ En esta práctica, se implementa un programa básico en ESP32-S3 para hacer parp
 - **Led**
 - **Cable tipo c**
 
+![Image](https://github.com/user-attachments/assets/19769dc3-83b1-4c3a-9392-3f512ddd5112)
+
 ## 4. Desarrollo
 
 ### 4.1 Preparación del Entorno
@@ -55,4 +57,6 @@ void loop() {
 ## 5. Resultados
 - Al cargar el código en el ESP32-S3, el LED comienza a **parpadear con un periodo de 1 segundo** (500 ms encendido, 500 ms apagado).
 - La ejecución del programa es estable y se verifica correctamente mediante la salida serie.
+![Image](https://github.com/CappiGa/Practica_1-PD/issues/2#issue-3157554914)
+
 
